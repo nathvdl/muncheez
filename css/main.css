@@ -1,0 +1,111 @@
+:root{
+	--cPrincipal: #000000;
+	--cSecundario: #FFCE00;
+}
+
+
+.navbar .nav-item .nav-link{
+    font-family: 'Poiret One', cursive;
+    font-weight: 150px;
+    font-size: 1.2em; 
+    padding: 1.2em;
+    --cPrincipal: #000000;
+    
+}
+
+.navbar .nav-item .nav-link:hover {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #FFCE00;
+    text-decoration: none;
+    background-color: #000000;
+    text-align: center;
+   }
+
+.card_home{
+    font-family: 'Raleway', sans-serif;
+     font-weight: 900;
+     color: #FFCE00;
+     margin: 2rem 3.5rem;
+     display: inline-block;
+     width: 9em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+    .card_home {
+      width: 50%;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+    .card_home {
+      width: 33.33333333333333%;
+    }
+
+@media screen and (min-width: 1200px) {
+    .card_home {
+      width: 25%;
+    }
+
+ .title__h2-font {
+    font-family: 'Poiret One', cursive;
+    font-weight: 100;
+    font-size: 2em;
+    color: #000000;
+    margin: 1rem 4rem; 
+    }
+
+.card-recetas .card-link {
+    font-family: 'Poiret One', cursive;
+    font-weight: 150px;
+    font-size: 1em; 
+    --cPrincipal: #000000;
+}
+
+.card-recetas .btn .btn-primary{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: #FFCE00;
+    text-decoration: none;
+    background-color: #000000;
+    text-align: center;
+   }
+
+.card-recetas {
+    width: 18rem;
+}
+
+.receta-nombre {
+    font-family: 'Poiret One', cursive;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #000000;
+    }
+
+ .navbar-footer{
+    font-family: 'Poiret One', cursive;
+    font-weight: 150px;
+    font-size: .8em; 
+    padding: .5em;
+    color: #FFCE00;
+    background-position: center;
+    background-size: 1rem 1vw;
+    padding: 1rem;
+    background-color: #FFFFFF;
+        
+    }
+
+footer {
+	display: inline-block;
+	width: 1600px;
+	margin: 0px;
+	padding: 6vh 6vw;
+	background-color: #000000;
+} 
