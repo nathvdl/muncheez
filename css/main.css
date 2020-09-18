@@ -104,8 +104,45 @@
 
 footer {
 	display: inline-block;
-	width: 1600px;
+	width: 100%;
 	margin: 0px;
 	padding: 6vh 6vw;
 	background-color: #000000;
 } 
+
+.title__h2-topfont{
+ font-family: 'Raleway', sans-serif;
+ font-weight: 800;
+font-size: 5em;
+text-shadow: 5px 5px #000000;
+color: #FFCE00;
+text-transform: uppercase;
+margin: 2rem;
+align-content: center;
+}
+
+.card-text {
+    font-family: 'Poiret One', cursive;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #000000;
+    padding-block: 1em;
+    text-align: center;
+}
+
+
+.card-text-rec  {
+    font-family: 'Poiret One', cursive;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #000000;
+    margin: 2em 10em ;
+    }
+
+.list-unstyled{
+    font-family: 'Poiret One', cursive;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #000000;
+    margin: 2em 10em ;
+}
